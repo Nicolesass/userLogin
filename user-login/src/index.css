@@ -38,7 +38,7 @@ p {
   max-width: 600px;
   padding: 2em;
   border-radius: 8px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
   background-color: #282c34;
   color: white;
   text-align: center;
@@ -74,5 +74,6 @@ button {
   background-color: #61dafb;
   color: #282c34;
   border-radius: 8px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5) ;
   cursor: pointer;
 }
