@@ -2,12 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>User Login</title>
+    <link rel="stylesheet" href="/src/index.css" />
   </head>
   <body>
-    <h1>Welcome</h1>
+    <div>
+      <h1>Welcome</h1>
+      <p>Please login to continue</p>
+    </div>
+    <div class="container">
+    <form id="login-form">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" />
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" />
+      <button type="submit">Login</button>
+    </form>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
